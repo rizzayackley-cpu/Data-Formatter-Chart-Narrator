@@ -48,4 +48,4 @@ export const router = createBrowserRouter([
       { path: "insight-summary", Component: Workbench },
     ],
   },
-]);
+], { basename: import.meta.env.BASE_URL });
